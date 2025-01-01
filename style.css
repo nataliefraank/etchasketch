@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Sheppards&display=swap');
+
+body {
+    background: #FCECBD;
+    padding-top: 5em;
+}
+
+h1, h2, h3 {
+    text-decoration: none;
+    color: #302116;
+}
+
+h1 {
+    font: normal 400 3em "Mrs Sheppards";
+    color: #511517;
+    text-align: center;
+}
+
+h2 {
+    font: normal 400 2em "Mrs Sheppards";
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+}
+
+.cell {
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: red;
+}
+
+.footer {
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.footer > p, a {
+    font: normal 100 1em sans-serif;
+}
