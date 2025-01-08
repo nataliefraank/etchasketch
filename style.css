@@ -2,7 +2,7 @@
 
 body {
     background: #FCECBD;
-    padding-top: 5em;
+    padding-top: 1em;
 }
 
 h1, h2, h3 {
@@ -24,14 +24,16 @@ h2 {
 .container {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     width: 400px;
     height: 400px;
 }
 
 .cell {
+    width: calc(100% / 10); /* Dynamically divide width */
+    height: calc(100% / 10); /* Dynamically divide height */
+    border: 1px solid #000;
     box-sizing: border-box;
-    border: 1px solid black;
-    background-color: red;
 }
 
 .footer {
